@@ -5,10 +5,10 @@
 const fs = require('fs');
 let input = fs.readFileSync('./inoutExample/input.txt', 'utf8'); //.toString().split('\n').map(()); 블로그에 보면 뒤에 이런 코드들이 붙어있는 것들은 잘하는 사람들이 한 것이므로 나도 익숙해져서 작성할 수 잇또록 하자..
 console.log(input);
-//fs변수에 require메서드를 할당해서 필요한 파일을 불러온다. require메서드는 파일을 불러온다. 'fs'는 파일시스템이다.
-//require의 속성 중 redaFileSync메서드는 파일을 동기방식으로 읽는다. 첫번째 인자는 경로/파일명, 두번째 인자는 불러오는 불러오는 방식이다.
-//readFileSync를 통해 test.txt라는 파일을 읽어서 input변수에 문자열로 할당한다.
-//JS는 파일을 한번에 읽어서 문자열 형태로 저장한다.
+// fs변수에 require메서드를 할당해서 필요한 파일을 불러온다. require메서드는 파일을 불러온다. 'fs'는 파일시스템이다.
+// require의 속성 중 redaFileSync메서드는 파일을 동기방식으로 읽는다. 첫번째 인자는 경로/파일명, 두번째 인자는 불러오는 불러오는 방식이다.
+// readFileSync를 통해 test.txt라는 파일을 읽어서 input변수에 문자열로 할당한다.
+// JS는 파일을 한번에 읽어서 문자열 형태로 저장한다.
 
 
 input = input.split('\n');
